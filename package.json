@@ -1,0 +1,8 @@
+{
+  "name": "socket-chat-example",
+  "version": "0.0.1",
+  "description": "playing with sockets for p3",
+  "dependencies": {
+    "express": "^4.10.2"
+  }
+}

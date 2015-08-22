@@ -1,16 +1,8 @@
 $(function() {
-//ask for username
-var FADE_TIME = 150;
-var TYPING_TIMER LENGTH = 400;
-var COLORS = [
-    '#e21400', '#91580f', '#f8a700', '#f78b00',
-    '#58dc00', '#287b00', '#a8f07a', '#4ae8c4',
-    '#3b88eb', '#3824aa', '#a700ff', '#d300e7'
-  ];
-
 
 //set up socket.io
 var app = require('express')();
+//load the http module to create an http server
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 
